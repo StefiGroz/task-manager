@@ -1,0 +1,45 @@
+.task-list {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.loading {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.empty-state {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.error-container {
+  background: #ffebee;
+  color: #c62828;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #c62828;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .task-list {
+    padding: 15px;
+  }
+}
