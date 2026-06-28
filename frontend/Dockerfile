@@ -7,7 +7,7 @@ RUN npm install
 
 # Set backend API URL used at build time so the production build calls the backend
 # service from the host browser when the frontend is served from a Docker container.
-ARG REACT_APP_API_URL=http://localhost:5000/api
+ARG REACT_APP_API_URL=/api
 ENV REACT_APP_API_URL=${REACT_APP_API_URL}
 
 COPY . .
